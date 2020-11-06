@@ -7,8 +7,12 @@ How to run !
 
 2. Start Apache and mySQL
 
-3. Bring chalakorn_database.sql to mySQL
+3. Create database name chalakorn_database.sql to phpMyAdmin
 
-4. Copy 'Chalakorn' folder to xampp/htdocs
+4. Import file chalakorn_database.sql to chalakorn_database
 
-5. Run on localhost
+5. Copy all files in 'Chalakorn' folder to xampp/htdocs (แค่ในไฟล์นะคะไม่ต้องก้อป Chalakorn)
+
+6. Run on localhost
+
+** รหัสผ่านต้องมีทั้งตัวเลขและอักษร ความยาว 6-18 ตัว
