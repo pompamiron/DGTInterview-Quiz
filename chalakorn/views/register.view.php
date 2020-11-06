@@ -67,7 +67,7 @@
 									<div class="input-group-prepend">
 										<span class="input-group-text">Password</span>
 									</div>
-									<input type="password" id="password" name="password" class="form-control" placeholder="Password">
+									<input type="password" id="password" name="password" class="form-control" placeholder="Password must include at least one digit and letter, 6-18 characters">
 								</div>
 								<button type="submit" class="btn btn-block btn-danger">Register</button>
 							</form>
