@@ -37,14 +37,6 @@ class Api {
 			return true;
 	}
 
-/*	private function Chk_UsernamePattern($username)
-	{
-		if(!preg_match('/^[a-zA-Z0-9]{6,18}$/', $username))
-			return false;
-		else
-			return true;
-	}
-*/
 	private function Chk_PasswordPattern($password)
 	{
 		if(!preg_match('/^(?=.*\d)(?=.*[A-Za-z])[0-9A-Za-z!@#$%]{6,25}$/', $password))
