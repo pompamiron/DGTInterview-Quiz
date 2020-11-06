@@ -5,7 +5,6 @@ session_start();
 require_once("configs/database.php");
 require_once("utils/alert.utils.php");
 require_once("routes.php");
-require("models/users.models.php");
 require("models/api.models.php");
 require("controllers/login.contoller.php");
 require("controllers/register.contoller.php");
